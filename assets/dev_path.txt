@@ -1,0 +1,5 @@
+Dev plan for practicum
+gather/edit assets from photoshop - 1.5hrs
+create project folder in Visual Studio
+write Html 
+compile with SASS
