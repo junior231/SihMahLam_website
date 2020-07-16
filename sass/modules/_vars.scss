@@ -1,0 +1,50 @@
+// global styles
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+// .img {
+//     width: 100%;
+// }
+
+section {
+    width: 100%;
+}
+
+.container{
+    // width: 100%; 
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+// color
+$primaryColour: #82cec9;
+
+// typography
+
+$primaryFont: 2.5em;
+$secondaryFont: 1.5em;
+$primaryFontColor: #f15c22;
+$secondaryFontColor: #7e8082;
+
+// a:links
+$linkColor: #f15c22;
+
+.btn {
+    background-color: $linkColor;
+    width: 60%;
+    padding: .5em;
+    border-radius: 2px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: $secondaryFont;
+}
+

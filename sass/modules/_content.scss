@@ -1,0 +1,36 @@
+.content {
+
+    .contentProduct {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+
+            .product {
+                padding: .5em;
+            }
+
+            .productInfo {
+                text-align: left;
+                display: flex;
+                flex-direction: column;
+                padding: .5em;
+                margin: 2em 0 1em 0; // top, right, bottom, left
+
+                h3 {
+                    font-size: $primaryFont;
+                    padding: .5em;
+                    color: $primaryFontColor;
+                    line-height: 1.2;
+                }
+
+                p {
+                    font-size: $secondaryFont;
+                    padding: .5em;
+                    color: $secondaryFontColor;
+                    line-height: 1.2;
+                    margin-bottom: 3em;
+                }
+            }
+        }
+    
+}
