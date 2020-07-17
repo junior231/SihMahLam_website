@@ -1,0 +1,81 @@
+.skinCare {
+    width: 100%;
+    // padding: .5em;
+
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: $primaryFont;
+        color: $primaryFontColor;
+        padding: .5em;
+        text-align: center;
+    }
+
+    .skinCon {
+        width: 100%;
+
+        .phases {
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            // padding: .5em;
+            // text-align: left;
+            margin: 2em 0 2em 0; // top, right, bottom, left
+
+            h3 {
+                font-size: 2em;
+                color: $primaryFontColor;
+                padding: .5em;
+                margin: 1em 0 1em 0; // trbl
+            }
+
+            p {
+                font-size: $secondaryFont;
+                color: $secondaryFontColor;
+                padding: .5em;
+                margin-bottom: 1em;
+                text-align: center;
+            }
+
+            .phaseLink {
+                margin: 0 0 .5em .5em; // trbl
+                width: 40% !important;
+            }
+        }
+    }
+}
+
+.skinCareInfo {
+    width: 100%;
+    padding: .5em;
+    margin: 2em 0 0 0;
+
+    h2 {
+        font-size: $primaryFont;
+        color: $primaryFontColor;
+        text-align: left;
+        padding: .5em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        color: $primaryFontColor;
+        text-align: left;
+        padding: .5em;
+        margin: .25em 0 .25em 0;
+    }
+
+    ul {
+        font-size: $secondaryFont;
+        color: $secondaryFontColor;
+        line-height: 1;
+        list-style-type: disc;
+    }
+
+    li {
+        list-style-type: circle;
+        padding: .5em;
+    }
+}

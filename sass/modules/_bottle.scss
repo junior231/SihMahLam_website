@@ -1,0 +1,29 @@
+.bottleInfo {
+    width: 100%;
+    background-color: #e6f5f4;
+
+    h3 {
+        padding: .5em;
+        font-size: 1.4em;
+        text-align: left;
+        color: $primaryFontColor;
+    }
+
+    p {
+        padding: .5em;
+        font-size: $secondaryFont;
+        color: $secondaryFontColor;
+        text-align: left;
+    }
+
+    .bottleDetails {
+        h2 {
+            padding: .5em;
+            font-size: $primaryFont;
+            color: $primaryFontColor;
+            text-align: center;
+            margin: .5em 0 0 0;
+        }
+
+    }
+}
