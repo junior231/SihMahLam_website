@@ -1,0 +1,40 @@
+.shipping {
+    width: 100%;
+    background-color: #e3e3e3;
+
+    h2 {
+        font-size: $primaryFont;
+        color: $primaryFontColor;
+        padding: .5em;
+        text-align: left;
+    }
+
+    h3 {
+        color: $primaryFontColor;
+        padding: .5em;
+        font-size: 1.5em;
+        text-align: left;
+        margin-bottom: .5em;
+
+    }
+
+    p {
+        color: $secondaryFontColor;
+        font-size: $secondaryFont;
+        padding: .5em;
+        // margin-bottom: 2em;
+    }
+
+    .shippingInfo {
+        display: flex;
+        flex-direction: row-reverse;
+        
+
+    }
+
+    // .shippingText{
+    //     margin-bottom: 2em;
+    // }
+
+    
+}

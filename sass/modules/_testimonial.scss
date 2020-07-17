@@ -1,0 +1,56 @@
+.testimonial {
+    width: 100%;
+    padding: .5em;
+    margin: 2em 0 0 0; // trbl
+
+    h2 {
+        font-size: $primaryFont;
+        color: $primaryFontColor;
+        padding: .5em;
+        text-align: center;
+        line-height: 1.2;
+        margin-bottom: 1em;
+    }
+
+    .comment {
+        padding: .5em;
+        margin: 1em 0 1em 0;
+        // border-radius: 1px dashed;
+
+        p {
+            font-size: $secondaryFont;
+            color: $secondaryFontColor;
+            line-height: 1;
+            padding: .5em;
+        }
+    }
+
+    .testCon {
+        margin: 2em 0 2em 0;
+        width: 100%;
+        display: flex;
+        padding: .5em;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        img {
+            width: 100%;
+        }
+
+        .testInfo {
+            margin: 1em 0 0 0;
+            padding: .5em;
+            h2 {
+                font-size: 2em;
+                color: $primaryFontColor;
+                margin-bottom: .5em;
+            }
+
+            p {
+                padding: .5em;
+                font-size: 1em;
+                color: $secondaryFontColor;
+            }
+        }
+    }
+}

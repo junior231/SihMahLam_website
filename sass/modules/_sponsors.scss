@@ -1,0 +1,31 @@
+.sponsors {
+    width: 100%;
+    padding: .5em;
+
+    h2 {
+        padding: .5em;
+        font-size: $primaryFont;
+        color: $primaryFontColor;
+        text-align: center;
+    }
+
+    .sponsorCon {
+        width: 100%;
+        // padding: .5em;
+        margin: 2em 0 2em 0; // trbl
+
+        .sponsorLogo {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+            img {
+                width: 40%;
+                margin: 2em 0 2em 0;
+            }
+        }
+
+     
+    }
+}

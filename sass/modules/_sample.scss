@@ -1,0 +1,40 @@
+.sample {
+    width: 100%;
+    padding: .5em .5em 0 .5em;
+    background-color: #82cec9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px dotted rgb(255, 255, 255);
+
+    .sampleInfo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .sampleBtn {
+            font-size: 1em;
+            width: 50%;
+            padding: .5em;
+            margin: 1em 1em;
+        }
+    }
+
+        h2 {
+            font-size: $primaryFont;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 2em 0 2em 0;
+            padding: .5em;
+        }
+
+       .sampleImg {
+           display: flex;
+           flex-direction: row-reverse;
+        //    align-self: center;
+        //    padding: .5em;
+           margin: 0 2em 0 0;
+       }
+
+       
+    
+}

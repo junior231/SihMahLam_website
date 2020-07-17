@@ -1,0 +1,45 @@
+.visibleResults {
+    background-color: #fef9f7;
+    width: 100%;
+    // margin: .5em;
+
+    .text {
+        padding: .5em;
+        margin: 0em 0 2em 0; // top, right, bottom,left
+        h2 {
+            padding: .5em;
+            font-size: $primaryFont;
+            color: $primaryFontColor;
+            line-height: 1;
+            text-align: left;
+            margin: .5em 0 .5em 0; // trbl
+        }
+
+        article {
+        padding: .5em;
+        font-size: $secondaryFont;
+        color: $secondaryFontColor;
+        line-height: 1.2;
+        text-align: center;
+        }
+    }
+
+    .pictures {
+        // padding: 1em;
+        width: 100%;
+
+        h3 {
+            font-size: 1.5em;
+            padding: .5em;
+            text-align: center;
+            color: $primaryFontColor;
+        }
+
+        img {
+            width: 95%;
+            // padding: .5em;
+        }
+
+        
+    }
+}

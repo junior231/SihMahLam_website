@@ -1,0 +1,35 @@
+.contact {
+    background-color: #e6f5f4;
+    width: 100%;
+    padding: .5em;
+
+    .contactInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 1em 0 1em 0; 
+
+        h2 {
+            font-size: $primaryFont;
+            padding: .5em;
+            color: $primaryFontColor;
+            text-align: left;
+            margin-bottom: 1em;
+        }
+
+        h4 {
+            font-size: 1.5em;
+            color: $secondaryFontColor;
+            padding: .5em;
+            text-align: left;
+            margin-bottom: 1em;
+        }
+
+        .contactBtn {
+            width: 40%;
+            margin-bottom: 1em;
+        }
+
+        
+    }
+}
