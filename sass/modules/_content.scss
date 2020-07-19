@@ -118,3 +118,31 @@
         }
     }
 }
+
+@media screen and (min-width: 580px) {
+    .content {
+
+        .contentProduct {
+
+            .product {
+                margin-left: 1em;
+            }
+
+            .productInfo {
+                margin-left: 1em;
+            }
+        }
+
+        .moreInfo {
+            max-width: 500px;
+            display: flex;
+            // margin-right: 1em;
+            margin-top: 2em;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+
+    
+}

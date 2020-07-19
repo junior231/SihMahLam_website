@@ -101,3 +101,19 @@
         }
     }
 }
+
+@media screen and (min-width: 480px) {
+    .shipping {
+        .shippingText {
+            h2 {
+                font-size: 1.8em;
+                transform: translate(0, -3em);
+            }
+
+            // .textCon {
+            //     margin-left: 1em;
+            // }
+        }
+    }
+}
+

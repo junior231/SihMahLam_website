@@ -2,13 +2,19 @@
     background-color: #e6f5f4;
     width: 100%;
     padding: .5em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 
     .contactInfo {
+        width: 100%;
+        max-width: 480px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         margin: 1em 0 1em 0; 
         align-items: center;
+        align-self: center;
 
         h2 {
             font-size: $primaryFont;
@@ -40,6 +46,21 @@
     .contact {
         .contactInfo {
             margin-left: .5em;
+        }
+    }
+}
+
+@media screen and (min-width: 580px) {
+    .contact {
+        .contactInfo {
+            // margin-left: 3em;
+            h2 {
+                text-align: left;
+            }
+
+            h4 {
+                text-align: left;
+            }
         }
     }
 }

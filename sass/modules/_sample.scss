@@ -5,8 +5,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    // border-bottom: 1px dotted rgb(255, 255, 255);
-    // margin-bottom: 1em;
 
     .sampleInfo {
         width: 100%;
@@ -70,4 +68,26 @@
     }
 }
 
-// @media screen and (min-width: 420px)
+@media screen and (min-width: 580px) {
+    .sample {
+        .sampleInfo {
+            transform: translate(1em, -2em);
+            h2 {
+                font-size: 1.8em;
+                transform: translate(-3em, 6em);
+            }
+
+            .sampleBtn {
+                transform: translate(8em, 14em);
+                width: 30%;
+            }
+        }
+
+        .sampleImg {
+            transform: translate(0, -2em);
+            img {
+                transform: translate(-2em, 0);
+            }
+        }
+    }
+}

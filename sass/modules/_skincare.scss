@@ -18,6 +18,7 @@
         width: 100%;
 
         .phases {
+            max-width: 480px;
             display: inline-flex;
             flex-direction: column;
             justify-content: space-evenly;
