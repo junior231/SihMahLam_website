@@ -17,3 +17,28 @@
         padding: .5em;
     }
 }
+
+
+// Media Queries 
+
+@media screen and (min-width: 410px) {
+    .header {
+        p {
+            font-size: 1em;
+            padding-bottom: 1em;
+        }
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .header {
+        p {
+            font-size: 1.5em;
+            padding-bottom: 1em;
+        }
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+}

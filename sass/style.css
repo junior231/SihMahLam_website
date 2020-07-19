@@ -102,6 +102,23 @@ section {
   padding: .5em;
 }
 
+@media screen and (min-width: 410px) {
+  .header p {
+    font-size: 1em;
+    padding-bottom: 1em;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .header p {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+  }
+  h2 {
+    font-size: 3em;
+  }
+}
+
 .content {
   width: 100%;
   padding: 2.5em .5em .5em .5em;
@@ -120,9 +137,13 @@ section {
 
 .content .contentProduct .product {
   padding: .5em;
+  -webkit-transform: translate(0, -50px);
+          transform: translate(0, -50px);
 }
 
 .content .contentProduct .productInfo {
+  -webkit-transform: translate(10px, 0);
+          transform: translate(10px, 0);
   text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -148,6 +169,12 @@ section {
   color: #7e8082;
   line-height: 1.2;
   margin-bottom: 3em;
+}
+
+.content .contentProduct .productInfo .productBtn {
+  -webkit-transform: translate(0.5em, -1em);
+          transform: translate(0.5em, -1em);
+  width: 50%;
 }
 
 .content .icons {
@@ -206,6 +233,23 @@ section {
   padding: .5em;
 }
 
+@media screen and (min-width: 440px) {
+  .content .contentProduct .productInfo {
+    margin-right: .2em;
+  }
+  .content .contentProduct .productInfo h3 {
+    font-size: 3em;
+  }
+  .content .contentProduct .productInfo p {
+    font-size: 2em;
+    line-height: 1;
+  }
+  .content .contentProduct .productInfo .productBtn {
+    -webkit-transform: translate(2em, -1em);
+            transform: translate(2em, -1em);
+  }
+}
+
 .hero .heroImage {
   width: 100%;
 }
@@ -237,10 +281,11 @@ section {
 }
 
 .skinCare h2 {
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: #f15c22;
   padding: .5em;
   text-align: center;
+  margin-top: 1em;
 }
 
 .skinCare .skinCon {
@@ -258,26 +303,30 @@ section {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 2em 0 2em 0;
 }
 
 .skinCare .skinCon .phases h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #f15c22;
   padding: .5em;
-  margin: 1em 0 1em 0;
+  margin: 1em 0 0 0;
+  text-align: left;
 }
 
 .skinCare .skinCon .phases p {
   font-size: 1.5em;
   color: #7e8082;
   padding: .5em;
-  margin-bottom: 1em;
-  text-align: center;
+  margin: 1em 1em;
+  text-align: left;
 }
 
 .skinCare .skinCon .phases .phaseLink {
-  margin: 0 0 .5em .5em;
+  margin: 1em 0 .5em .5em;
   width: 40% !important;
 }
 
@@ -307,16 +356,41 @@ section {
   color: #7e8082;
   line-height: 1;
   list-style-type: disc;
+  text-align: left;
+  padding: .5em;
+  margin-left: .3em;
 }
 
-.skinCareInfo li {
-  list-style-type: circle;
+.skinCareInfo .listCon {
   padding: .5em;
+}
+
+@media screen and (min-width: 410px) {
+  .skinCareInfo ul {
+    margin-left: .5em;
+  }
+  .skinCareInfo li {
+    padding-left: .5em;
+  }
+  .skinCare {
+    margin-top: 2em;
+  }
+  .skinCare .skinCon .phases {
+    margin: 3em 0;
+  }
+  .skinCare .skinCon .phases h3 {
+    font-size: 2em;
+  }
 }
 
 .bottleInfo {
   width: 100%;
   background-color: #e6f5f4;
+  padding: 0 0 1em 0;
+}
+
+.bottleInfo .bottleText {
+  padding: .5em;
 }
 
 .bottleInfo h3 {
@@ -335,10 +409,24 @@ section {
 
 .bottleInfo .bottleDetails h2 {
   padding: .5em;
-  font-size: 2.5em;
+  font-size: 1.5em;
+  font-weight: bold;
   color: #f15c22;
   text-align: center;
   margin: .5em 0 0 0;
+}
+
+.bottleInfo .bottleDetails img {
+  margin-top: 2em;
+}
+
+@media screen and (min-width: 380px) {
+  .bottleInfo .bottleDetails h2 {
+    font-size: 2em;
+  }
+  .bottleInfo .bottleText h3 {
+    font-size: 1.8em;
+  }
 }
 
 .visibleResults {
@@ -365,7 +453,7 @@ section {
   font-size: 1.5em;
   color: #7e8082;
   line-height: 1.2;
-  text-align: center;
+  text-align: left;
 }
 
 .visibleResults .pictures {
@@ -406,45 +494,67 @@ section {
 .testimonial .comment p {
   font-size: 1.5em;
   color: #7e8082;
-  line-height: 1;
+  line-height: 1.2;
   padding: .5em;
+  text-align: left;
+  font-style: italic;
 }
 
 .testimonial .testCon {
-  margin: 2em 0 2em 0;
+  margin-right: 1em;
+  margin: 2em 0 0 0;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding: .5em;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
 }
 
-.testimonial .testCon img {
-  width: 100%;
+.testimonial .testCon .testPic {
+  margin-right: .5em;
+  padding: .5em;
+}
+
+.testimonial .testCon .testPic img {
+  width: 40%;
+  -webkit-transform: translate(-6em, 0);
+          transform: translate(-6em, 0);
 }
 
 .testimonial .testCon .testInfo {
-  margin: 1em 0 0 0;
+  padding: .5em;
+  -webkit-transform: translate(4em, -8em);
+          transform: translate(4em, -8em);
+  margin: 1em 1em 0 0;
   padding: .5em;
 }
 
 .testimonial .testCon .testInfo h2 {
-  font-size: 2em;
+  font-size: 1em;
   color: #f15c22;
   margin-bottom: .5em;
 }
 
 .testimonial .testCon .testInfo p {
   padding: .5em;
-  font-size: 1em;
+  font-size: .8em;
   color: #7e8082;
+}
+
+@media screen and (min-width: 360px) {
+  .testimonial .testCon .testInfo {
+    -webkit-transform: translate(5em, -10em);
+            transform: translate(5em, -10em);
+  }
+  .testimonial .testCon .testInfo h2 {
+    font-size: 1em;
+  }
+  .testimonial .testCon .testInfo p {
+    font-size: .8em;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .testimonial .testCon .testPic {
+    margin-right: 4em;
+  }
 }
 
 .sponsors {
@@ -465,6 +575,7 @@ section {
 }
 
 .sponsors .sponsorCon .sponsorLogo {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -477,6 +588,9 @@ section {
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .sponsors .sponsorCon .sponsorLogo img {
@@ -508,9 +622,10 @@ section {
   color: #7e8082;
   font-size: 1.5em;
   padding: .5em;
+  text-align: left;
 }
 
-.shipping .shippingInfo {
+.shipping .shippingText .shippingInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -518,6 +633,54 @@ section {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.shipping .shippingText h2 {
+  font-size: 1em;
+  -webkit-transform: translate(0, -4em);
+          transform: translate(0, -4em);
+}
+
+.shipping .shippingText .textCon {
+  -webkit-transform: translate(0, 0.1em);
+          transform: translate(0, 0.1em);
+}
+
+@media screen and (min-width: 320px) {
+  .shipping .shippingText h2 {
+    font-size: 1em;
+    -webkit-transform: translate(0, -4em);
+            transform: translate(0, -4em);
+  }
+}
+
+@media screen and (min-width: 340px) {
+  .shipping .shippingText h2 {
+    font-size: 1.2em;
+    -webkit-transform: translate(0, -4em);
+            transform: translate(0, -4em);
+  }
+}
+
+@media screen and (min-width: 380px) {
+  .shipping .shippingText h2 {
+    font-size: 1.4em;
+    -webkit-transform: translate(0, -4em);
+            transform: translate(0, -4em);
+  }
+  .shipping .shippingText .textCon {
+    -webkit-transform: translate(0, -1.2em);
+            transform: translate(0, -1.2em);
+  }
+}
+
+@media screen and (min-width: 410px) {
+  .shipping .shippingText h2 {
+    font-size: 1.5em;
+  }
+  .shipping .shippingText .textCon {
+    margin-left: 1em;
+  }
 }
 
 .contact {
@@ -538,6 +701,9 @@ section {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin: 1em 0 1em 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contact .contactInfo h2 {
@@ -545,7 +711,6 @@ section {
   padding: .5em;
   color: #f15c22;
   text-align: left;
-  margin-bottom: 1em;
 }
 
 .contact .contactInfo h4 {
@@ -559,6 +724,12 @@ section {
 .contact .contactInfo .contactBtn {
   width: 40%;
   margin-bottom: 1em;
+}
+
+@media screen and (min-width: 420px) {
+  .contact .contactInfo {
+    margin-left: .5em;
+  }
 }
 
 .sample {
@@ -575,7 +746,6 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-bottom: 1px dotted white;
 }
 
 .sample .sampleInfo {
@@ -590,10 +760,12 @@ section {
 }
 
 .sample .sampleInfo .sampleBtn {
-  font-size: 1em;
-  width: 50%;
-  padding: .5em;
+  font-size: .8em;
+  width: 40%;
+  padding: 1em;
   margin: 1em 1em;
+  -webkit-transform: translate(0, 11em);
+          transform: translate(0, 11em);
 }
 
 .sample h2 {
@@ -602,6 +774,8 @@ section {
   color: #fff;
   margin-bottom: 2em 0 2em 0;
   padding: .5em;
+  -webkit-transform: translate(0, 20px);
+          transform: translate(0, 20px);
 }
 
 .sample .sampleImg {
@@ -612,7 +786,30 @@ section {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  padding-bottom: .1em;
+  border-bottom: 1.5px dotted white;
   margin: 0 2em 0 0;
+}
+
+.sample .sampleImg img {
+  -webkit-transform: translate(-10px, 0);
+          transform: translate(-10px, 0);
+}
+
+@media screen and (min-width: 410px) {
+  .sample .sampleInfo .sampleBtn {
+    -webkit-transform: translate(2em, 14em);
+            transform: translate(2em, 14em);
+    font-size: .8em;
+  }
+  .sample .sampleImg {
+    padding-bottom: .1em;
+    border-bottom: 1px dotted white;
+  }
+  .sample .sampleImg img {
+    -webkit-transform: translate(-20px, 0);
+            transform: translate(-20px, 0);
+  }
 }
 
 .mainFooter {
@@ -626,5 +823,10 @@ section {
   text-align: center;
   padding: .5em;
   color: #fff;
+}
+
+.mainFooter p {
+  font-size: 1.5em;
+  padding: 1em;
 }
 /*# sourceMappingURL=style.css.map */

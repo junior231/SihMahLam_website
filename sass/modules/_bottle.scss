@@ -1,6 +1,12 @@
 .bottleInfo {
     width: 100%;
     background-color: #e6f5f4;
+    padding: 0 0 1em 0;
+
+    .bottleText {
+        padding: .5em;
+    }
+
 
     h3 {
         padding: .5em;
@@ -19,11 +25,35 @@
     .bottleDetails {
         h2 {
             padding: .5em;
-            font-size: $primaryFont;
+            font-size: 1.5em;
+            font-weight: bold;
             color: $primaryFontColor;
             text-align: center;
             margin: .5em 0 0 0;
         }
 
+        img {
+            // padding: .5em;
+            margin-top: 2em;
+        }
+
+    }
+}
+
+
+// Media Queries 
+@media screen and (min-width: 380px) {
+    .bottleInfo {
+        .bottleDetails {
+            h2 {
+                font-size: 2em;
+            }
+        }
+
+        .bottleText {
+            h3 {
+                font-size: 1.8em;
+            }
+        }
     }
 }

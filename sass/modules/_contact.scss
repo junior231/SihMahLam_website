@@ -8,13 +8,14 @@
         flex-direction: column;
         justify-content: space-evenly;
         margin: 1em 0 1em 0; 
+        align-items: center;
 
         h2 {
             font-size: $primaryFont;
             padding: .5em;
             color: $primaryFontColor;
             text-align: left;
-            margin-bottom: 1em;
+            // margin-bottom: 1em;
         }
 
         h4 {
@@ -31,5 +32,14 @@
         }
 
         
+    }
+}
+
+// media queries 
+@media screen and (min-width: 420px) {
+    .contact {
+        .contactInfo {
+            margin-left: .5em;
+        }
     }
 }

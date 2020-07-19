@@ -22,19 +22,82 @@
         color: $secondaryFontColor;
         font-size: $secondaryFont;
         padding: .5em;
+        text-align: left;
         // margin-bottom: 2em;
     }
 
-    .shippingInfo {
-        display: flex;
-        flex-direction: row-reverse;
-        
 
+    .shippingText {
+
+        .shippingInfo {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        h2 {
+            font-size: 1em;
+            transform: translate(0, -4em);
+        }
+
+        .textCon {
+            transform: translate(0, .1em);
+        }
     }
 
-    // .shippingText{
-    //     margin-bottom: 2em;
-    // }
-
     
+}
+
+
+// Media Queries 
+@media screen and (min-width: 320px) {
+    .shipping {
+        .shippingText {
+            h2 {
+                font-size: 1em;
+                transform: translate(0, -4em);
+                // padding-right: .3em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 340px) {
+    .shipping {
+        .shippingText {
+            h2 {
+                font-size: 1.2em;
+                transform: translate(0, -4em);
+                // padding-right: .3em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 380px) {
+    .shipping {
+        .shippingText {
+            h2 {
+                font-size: 1.4em;
+                transform: translate(0, -4em);
+                // padding-right: .3em;
+            }
+
+            .textCon {
+                transform: translate(0, -1.2em);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 410px) {
+    .shipping {
+        .shippingText {
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .textCon {
+                margin-left: 1em;
+            }
+        }
+    }
 }
