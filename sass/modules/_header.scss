@@ -43,3 +43,44 @@
         font-weight: bold;
     }
 }
+
+@media screen and (min-width: 720px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+
+        h2 {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: .7em;
+            transform: translate(1em, 1.5em);
+        }
+
+        .headerBtn {
+            display: flex;
+            justify-content: flex-end;
+            
+            width: 300px;
+            // max-width: 150px;
+            // height: 50px;
+            
+
+            a {
+                align-items: flex-end;
+                width: 50%;
+                font-size: 1.5em;
+                border-radius: 2px;
+                padding: .5em;
+                text-align: center;
+                
+            }
+        }
+        
+
+    }
+}

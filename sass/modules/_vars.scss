@@ -5,9 +5,11 @@ html{
     scroll-behavior: smooth;
 }
 
-// .img {
-//     width: 100%;
-// }
+video {
+    padding: 2em;
+    max-width: 100%;
+    height: auto;
+}
 
 section {
     width: 100%;
