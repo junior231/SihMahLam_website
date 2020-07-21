@@ -10,6 +10,7 @@
     }
 
     .sponsorCon {
+        max-width: 840px;
         width: 100%;
         // padding: .5em;
         margin: 2em 0 2em 0; // trbl
@@ -31,5 +32,64 @@
         }
 
      
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .sponsors {
+        h2 {
+            font-size: 1.75em;
+        }
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .sponsors {
+        h2 {
+            font-size: 2em;
+        }
+
+        .sponsorCon {
+            max-width: 720px;
+            .sponsorLogo {
+                justify-content: center;
+               
+                img {
+                    width: 20%;
+                    margin-left: 1em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .sponsors {
+        .sponsorCon {
+            max-width: 840px;
+            margin-left: 3em;
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .sponsors {
+        .sponsorCon {
+            .sponsorLogo {
+                img {
+                    margin-left: 2em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    .sponsors {
+        .sponsorCon {
+            .sponsorLogo {
+               margin-left: 2em;
+            }
+        }
     }
 }

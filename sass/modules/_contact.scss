@@ -64,3 +64,17 @@
         }
     }
 }
+
+@media screen and (min-width: 720px) {
+    .contact {
+        .contactInfo {
+            h2 {
+                font-size: 1.75em;
+            }
+
+            h4 {
+                font-size: 1.25em;
+            }
+        }
+    }
+}

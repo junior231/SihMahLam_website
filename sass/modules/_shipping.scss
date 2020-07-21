@@ -128,3 +128,110 @@
     }
 }
 
+
+@media screen and (min-width: 720px) {
+    .shipping {
+        margin-top: 2em;
+        
+
+
+        .tabHeading {
+            display: inline-block;
+            font-size: 1.25em;
+            // padding: .5em;
+            margin-top: 1em;
+            transform: translate(-3em, -.5em);
+        }
+        width: 100%;
+        .shippingText {
+            margin-top: 1em;
+            padding-bottom: 1em;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .mobileHeading {
+                display: none;
+            }
+
+            .shippingInfo {
+                width: 100%;
+                display: inline-flex;
+                flex-direction: column;
+
+                .mobile {
+                    display: none;
+                }
+
+                .tablet {
+                    display: inline-block;
+                    width: 80%;
+                    transform: translate(0, -2em);
+
+                   
+                }
+            }
+
+            .textCon {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                // max-width: 480px;
+                padding: 0;
+                margin: 0;
+                transform: translate(0,0);
+                margin-bottom: 2em;
+                margin-right: 1em;
+
+                h3 {
+                    font-size: 1em;
+                }
+
+                p {
+                    font-size: .8em;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 840px) {
+    .shipping {
+
+        .tabHeading {
+            transform: translate(-5em, .5em);
+        }
+        .shippingText {
+            .textCon {
+                h3 {
+                    font-size: 1.5em;
+                }
+
+                p {
+                    font-size: 1em;
+                }
+            }
+
+            .shippingInfo {
+                .tablet {
+                    transform: translate(0, 0);
+                }
+
+            }
+
+           
+        }
+    }
+} 
+
+
+@media screen and (min-width: 980px) {
+    .shipping {
+        .shippingText {
+            .textCon {
+                margin-top: 1em;
+            }
+        }
+    }
+}
+

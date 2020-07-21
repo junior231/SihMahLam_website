@@ -13,10 +13,24 @@
 }
 
 // media queries 
-
-.mainFooter {
-    p {
-        font-size: 1.5em;
-        padding: 1em;
+@media screen and (min-width: 640px) {
+    .mainFooter {
+        p {
+            font-size: 1.5em;
+            padding: 1em;
+        }
     }
 }
+
+@media screen and (min-width: 840px) {
+    .mainFooter {
+        border-top: 1.5px dotted rgb(255, 255, 255);
+
+        p {
+            font-size: 2em;
+            padding: 2em;
+        }
+    }
+}
+
+

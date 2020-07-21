@@ -1,4 +1,5 @@
 .skinCare {
+    max-width: 1080px;
     width: 100%;
     // padding: .5em;
 
@@ -20,7 +21,7 @@
         width: 100%;
 
         .phases {
-            max-width: 540px;
+            max-width: 640px;
             display: inline-flex;
             flex-direction: column;
             justify-content: space-evenly;
@@ -52,6 +53,7 @@
 }
 
 .skinCareInfo {
+    max-width: 1020px;
     width: 100%;
     padding: .5em;
     margin: 2em 0 0 0;
