@@ -69,3 +69,31 @@
         
     }
 }
+
+
+//Media Queries 
+
+@media screen and (min-width: 720px) {
+    .visibleResults {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        
+        .text {
+            max-width: 300px;
+            h2 {
+                font-size: 1em;
+            }
+
+            article {
+                font-size: .8em;
+            }
+        }
+
+        .pictures {
+            max-width: 300px;
+        }
+    }
+}

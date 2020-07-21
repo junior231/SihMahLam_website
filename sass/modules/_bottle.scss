@@ -13,9 +13,10 @@
         background-color: #fff;
         justify-content: flex-end;
 
-        img {max-width: 360px;
+        img {
+            max-width: 360px;
             width: 80%;
-            // transform: translate(0, 2em);
+            transform: translate(0, 2.5em);
         }
     }
 
@@ -35,6 +36,8 @@
     }
 
     .bottleDetails {
+        margin-top: 2em;
+        width: 100%;
         h2 {
             padding: .5em;
             font-size: 1.5em;
@@ -45,6 +48,7 @@
         }
 
         img {
+            max-width: 80px;
             // padding: .5em;
             margin-top: 2em;
         }
@@ -86,6 +90,17 @@
 
 @media screen and (min-width: 720px) {
     .bottleInfo {
+        .bottleDetails{
+            width: 100%;
+            img {
+                margin-top: 1em;
+                max-width: 60px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
         .bottleText {
             width: 100%;
             display: flex;
@@ -93,6 +108,7 @@
             justify-content: space-evenly;
 
            .bottleTextCon {
+               padding-right: .5em;
                margin-left: 1em;
                margin-right: 1em;
                width: 80%;

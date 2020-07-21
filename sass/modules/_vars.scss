@@ -6,9 +6,10 @@ html{
 }
 
 video {
-    padding: 2em;
+    // margin-right: 1em;
     max-width: 100%;
     height: auto;
+    margin-bottom: 2em;
 }
 
 section {
@@ -16,6 +17,7 @@ section {
 }
 
 .container{
+    max-width: 1080px;
     height: 100%;
     // width: 100%; 
     margin: 0 auto;
